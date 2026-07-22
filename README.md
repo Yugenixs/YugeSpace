@@ -10,7 +10,7 @@ Lampung, Sumatra, Indonesia
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-[Live Demo](#) · [GitHub](https://github.com/Yugenixs) · [Report an Issue](https://github.com/Yugenixs/YugeSpace/issues)
+[Live](#) · [GitHub](https://github.com/Yugenixs) · [Report an Issue](https://github.com/Yugenixs/YugeSpace/issues)
 
 </div>
 
