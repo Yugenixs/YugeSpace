@@ -10,14 +10,14 @@ export default function Stats() {
 
       <div className="grid md:grid-cols-2 gap-4 sm:gap-6 reveal reveal-d2">
         <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-3 sm:p-5 flex items-center justify-center brutal-card card-glow">
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yugenixs&theme=github_dark" alt="GitHub profile statistics" className="w-full max-w-sm" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yugenixs&theme=github_radical" alt="GitHub profile statistics" className="w-full max-w-sm" />
         </div>
         <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-3 sm:p-5 flex items-center justify-center brutal-card card-glow">
           <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yugenixs&theme=radical" alt="GitHub Contribution Streak" className="w-full max-w-sm" />
         </div>
       </div>
       <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-3 sm:p-5 mt-4 sm:mt-6 flex items-center justify-center reveal reveal-d3 brutal-card card-glow">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Yugenixs&theme=github_dark" alt="Most frequently used programming languages" className="w-full max-w-md" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Yugenixs&theme=github_radical" alt="Programming languages" className="w-full max-w-md" />
       </div>
       <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-3 sm:p-5 mt-4 sm:mt-6 flex items-center justify-center reveal reveal-d4 brutal-card card-glow">
         <img src="https://ghchart.rshah.org/F62477/Yugenixs" alt="GitHub Contributions Calendar" className="w-full" />
