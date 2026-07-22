@@ -1,11 +1,11 @@
 export default function About() {
   return (
-    <section className="py-12 sm:py-16" id="tentang">
+    <section className="py-12 sm:py-16" id="About">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tighter text-center mb-2 sm:mb-4 reveal">
         <i className="fas fa-user-circle text-[#F62477] mr-2 sm:mr-3"></i>Tentang
       </h2>
       <p className="text-center font-bold text-[10px] sm:text-xs max-w-lg mx-auto mb-6 sm:mb-10 reveal reveal-d1 uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>
-        Data Scientist & Bot Automation Developer — based in Lampung
+        Data Scientist & Bot Automation Developer — based in Lampung/Yogyakarta
       </p>
       <div className="grid lg:grid-cols-2 gap-6 sm:gap-8">
         <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-5 sm:p-7 lg:p-9 reveal reveal-d2">
