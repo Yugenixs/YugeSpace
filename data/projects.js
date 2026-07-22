@@ -55,4 +55,4 @@ export const tagColors = {
   'Claude API': 'bg-[#92003A] text-white',
   'React': 'bg-[#61DAFB] text-black',
   'TypeScript': 'bg-[#3178C6] text-white',
-}
+  }
