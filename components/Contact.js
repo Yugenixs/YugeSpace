@@ -8,10 +8,10 @@ export default function Contact() {
   return (
     <section className="py-12 sm:py-16" id="kontak">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tighter text-center mb-2 sm:mb-4 reveal">
-        <i className="fas fa-paper-plane text-[#FFADEE] mr-2 sm:mr-3"></i>Kontak
+        <i className="fas fa-paper-plane text-[#FFADEE] mr-2 sm:mr-3"></i>Contact
       </h2>
       <p className="text-center font-bold text-[10px] sm:text-xs max-w-lg mx-auto mb-6 sm:mb-10 reveal reveal-d1 uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>
-        Tempat orang-orang biasa nyari saya
+        Lets connect for business, learning, collaboration, and building meaningful technology together
       </p>
       <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
         {links.map((l, i) => (
