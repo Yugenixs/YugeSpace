@@ -1,7 +1,5 @@
 'use client'
 import { useState } from 'react'
-
-// TODO: ganti dengan address Solana Anda sendiri sebelum publish
 const SOLANA_ADDRESS = 'Bzhb36V3gEKKqGQLtEcC2vkA2aBDYvkGdprTZQvUaJ5W'
 
 export default function Donation() {
@@ -20,7 +18,6 @@ export default function Donation() {
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     } catch {
-      // clipboard API unavailable, fail silently
     }
   }
 
@@ -29,16 +26,16 @@ export default function Donation() {
       <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-6 sm:p-10 lg:p-14 text-center reveal">
         <i className="fas fa-mug-hot text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4" style={{ color: 'var(--text)' }}></i>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tighter">
-          Dukung <span className="bg-[#FFE185] px-2 sm:px-3 border-4 border-black brutal-shadow-sm inline-block">Karya</span>
+          Support <span className="bg-[#FFE185] px-2 sm:px-3 border-4 border-black brutal-shadow-sm inline-block">My Journey</span>
         </h2>
         <p className="font-bold text-[11px] sm:text-xs max-w-md mx-auto mt-3 sm:mt-4 mb-6 sm:mb-8" style={{ color: 'var(--text-sec)' }}>
-          Dukungan Anda membantu saya terus mengembangkan proyek open source dan eksperimen data yang saya bagikan di sini.
+          If you find my work valuable, consider supporting the continued development of open-source projects, AI experiments, and educational content. Every contribution is genuinely appreciated.
         </p>
         <button
           onClick={() => setShowModal(true)}
           className="inline-block font-bold text-[10px] sm:text-xs uppercase bg-[#F62477] text-white border-4 border-black rounded-xl px-6 sm:px-8 py-3 sm:py-4 brutal-shadow-sm brutal-btn mb-6 sm:mb-8 flex items-center gap-1.5 mx-auto w-fit cursor-pointer"
         >
-          <i className="fas fa-heart"></i> Donasi
+          <i className="fas fa-heart"></i> Make a Donation
         </button>
         <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
           <span
@@ -67,7 +64,7 @@ export default function Donation() {
               <i className="fas fa-times"></i>
             </button>
             <h3 className="text-lg sm:text-xl font-black uppercase tracking-tighter mb-4 text-center flex items-center justify-center gap-2" style={{ color: 'var(--text)' }}>
-              <i className="fab fa-solana"></i> Solana (SOL)
+              <i className="fab fa-solana"></i> Support via Solana (SOL)
             </h3>
 
             {hasAddress ? (
@@ -81,7 +78,7 @@ export default function Donation() {
                   style={{ color: 'var(--text)' }}
                 >
                   <i className={copied ? 'fas fa-check' : 'fas fa-copy'}></i>
-                  {copied ? 'Address disalin!' : SOLANA_ADDRESS}
+                  {copied ? 'Wallet address copied!' : SOLANA_ADDRESS}
                 </button>
               </>
             ) : (
@@ -90,12 +87,12 @@ export default function Donation() {
                 style={{ background: 'var(--muted)', color: 'var(--text-sec)' }}
               >
                 <i className="fab fa-solana text-4xl"></i>
-                <p className="font-bold text-[10px] sm:text-xs uppercase">Address Solana belum diatur</p>
+                <p className="font-bold text-[10px] sm:text-xs uppercase">Donasi untuk sementara tidak tersedia.</p>
               </div>
             )}
 
             <p className="font-bold text-[9px] sm:text-[10px] text-center mt-4" style={{ color: 'var(--text-muted)' }}>
-              Set <code>SOLANA_ADDRESS</code> di <code>components/Donation.js</code> dengan address Solana.
+              Dukungan Anda membantu saya terus membangun open-source software, AI solutions, dan educational resource untuk komunitas. Terima kasih telah menjadi bagian dari perjalanan ini.
             </p>
           </div>
         </div>
